@@ -14,7 +14,7 @@ begin
         clk_out<=0;
     end
 
-    else if(counter==N)
+    else if(counter>=N)
     begin
         clk_out<=~clk_out;
         counter<=0;
