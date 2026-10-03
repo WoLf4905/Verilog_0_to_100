@@ -19,6 +19,8 @@ module testbench_clock_divider;
 
     initial
     begin
+        $dumpfile("waveform.vcd");
+        $dumpvars(0,clock_divider_testbench);
         clk_in=0;
         reset=1;
         N=2'b10;
