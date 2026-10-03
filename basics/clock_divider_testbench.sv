@@ -1,5 +1,5 @@
 `timescale 1ns/1ps
-module testbench_clock_divider;
+module clock_divider_testbench;
     logic clk_in;
     logic reset;
     logic [1:0] N;
